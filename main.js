@@ -21,7 +21,7 @@ const createEvent = (nazevUdalosti, pocetLidi, nazevCatering) => {
 
 
 console.log('funguju!');
-/*
+
 
 const kostka = document.querySelector('.dice')
 let strana = 1
@@ -36,14 +36,15 @@ const zmenaStrany = () => {
 
 document.addEventListener('keydown', zmenaStrany)
 
-*/
 
 
 
-const zvuk = document.querySelector('.audio')
+
+
+const zvuk = document.querySelector("audio")
 const cas = Number(prompt('Kolik vteřin má uplynout, než minutka začne zvonit?'))*1000
 const tlacitko = document.querySelector('.tlacitko')
-const budik = document.querySelector('.alarm')
+const budik = document.querySelector(".alarm")
 
 
 const zvonit = () => {

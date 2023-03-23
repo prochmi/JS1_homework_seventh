@@ -41,9 +41,9 @@ document.addEventListener('keydown', zmenaStrany)
 
 
 const zvuk = document.querySelector('.audio')
-const cas = Number(prompt("Kolik vteřin má uplynout, než minutka začne zvonit?"))*1000
-const tlacitko = document.querySelector(".tlacitko")
-const budik = document.querySelector(".alarm")
+const cas = Number(prompt('Kolik vteřin má uplynout, než minutka začne zvonit?'))*1000
+const tlacitko = document.querySelector('.tlacitko')
+const budik = document.querySelector('.alarm')
 
 
 const zvonit = () => {
